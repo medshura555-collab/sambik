@@ -1,0 +1,24 @@
+Виртуальное окружение
+
+.venv/
+
+Кэш Python
+
+pycache/
+*.py[cod]
+
+Секретные настройки
+
+.env
+
+Файлы редактора и системы
+
+.vscode/
+.DS_Store
+Thumbs.db
+
+Исходные и обработанные данные
+
+data/raw/
+data/interim/
+data/processed/
