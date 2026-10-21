@@ -6,10 +6,12 @@
 
 pycache/
 *.py[cod]
+.ipynb_checkpoints/
 
 Секретные настройки
 
 .env
+.env.*
 
 Файлы редактора и системы
 
@@ -22,3 +24,21 @@ Thumbs.db
 data/raw/
 data/interim/
 data/processed/
+
+Большие файлы и базы данных
+
+*.parquet
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+Логи и временные файлы
+
+*.log
+logs/
+
+Временные результаты
+
+*.tmp
